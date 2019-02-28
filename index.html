@@ -2,210 +2,146 @@
 <html lang="en">
 
 <head>
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="My portfolio site, what else?">
-  <meta name="author" content="Michael Messerli">
-
-  <title>Michael Messerli</title>
-
-  <!-- Bootstrap Core CSS -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-  <!-- Custom CSS -->
-  <link href="css/landing-page.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Michael Messerli
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="./css/material-kit.css?v=2.0.5" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="./demo/demo.css" rel="stylesheet" />
 </head>
 
-<body>
-  <!-- Header -->
-  <a name="about"></a>
-  <div class="intro-header">
-    <div class="intro-cover">
+<body class="profile-page sidebar-collapse">
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url('./img/banner-bg_2.jpg');"></div>
+  <div class="main main-raised">
+    <div class="profile-content">
       <div class="container">
-
         <div class="row">
-          <div class="col-lg-12">
-            <div class="intro-message">
-              <img src="img/masks.jpg" alt="Michael Messerli" class="img-circle img-thumbnail" style="height: 300px">
-              <h1>Michael Messerli</h1>
-              <h3>Maker &bull; Developer &bull; Traveller &bull; Gamer</h3>
-              <hr class="intro-divider">
-              <ul class="list-inline intro-social-buttons">
-                <li>
-                  <a href="https://twitter.com/michaelmesserli" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+          <div class="col-md-6 ml-auto mr-auto">
+            <div class="profile">
+              <div class="avatar">
+                <img src="./img/michael_yb_game.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+              </div>
+              <div class="name">
+                <h3 class="title">Michael Messerli</h3>
+                <h6>Maker &bull; Developer &bull; Traveller &bull; Gamer</h6>
+                <a href="https://github.com/messerli90" class="btn btn-just-icon btn-link btn-github"><i class="fa fa-github"></i></a>
+                <a href="https://twitter.com/michaelmesserli" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://linkedin.com/in/messerlimichael" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="description text-center">
+          <p>I build apps for games.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 ml-auto mr-auto">
+            <div class="profile-tabs">
+              <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#studio" role="tab" data-toggle="tab">
+                    <i class="material-icons">code</i> Web Apps
+                  </a>
                 </li>
-                <li>
-                  <a href="https://github.com/messerli90" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#works" role="tab" data-toggle="tab">
+                    <i class="material-icons">extension</i> Packages
+                  </a>
                 </li>
-                <li>
-                  <a href="https://linkedin.com/in/messerlimichael" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#favorite" role="tab" data-toggle="tab">
+                    <i class="material-icons">record_voice_over</i> Bots
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-
-      </div>
-      <!-- /.container -->
-    </div>
-  </div>
-  <!-- /.intro-header -->
-
-  <!-- Page Content -->
-  <div class="content-section-a" id="projects" >
-
-    <div class="container">
-      <div class="row">
-        <div class="page-header">
-          <h2 class="text-center">Projects <small></small></h2>
-        </div>
-
-        <div class="col-lg-5 col-sm-6">
-          <hr class="section-heading-spacer">
-          <div class="clearfix"></div>
-          <h2 class="section-heading"><a href="https://siegrs.gg">Siegrs.gg</a><br><small>Yet Another Team Finder App</small></h2>
-          <p class="lead">Web app to bring together players and teams of Rainbow Six: Siege. Built in Laravel 5</p>
-          <p class="lead"></p>
-        </div>
-        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-          <img class="img-responsive img-thumbnail" src="img/siegrs.png" alt="Screenshot of Siegrs.gg">
-        </div>
-      </div>
-
-    </div>
-    <!-- /.container -->
-
-  </div>
-  <!-- /.content-section-a -->
-
-  <div class="content-section-b">
-
-    <div class="container">
-
-      <div class="row">
-        <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-          <hr class="section-heading-spacer">
-          <div class="clearfix"></div>
-          <h2 class="section-heading"><a href="https://jobhuntbuddy.co">JobHuntBuddy</a><br>Organize your job search</h2>
-          <p class="lead">Helps you keep track of job applications and interviews.</p>
-        </div>
-        <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-          <img class="img-responsive" src="img/jobhuntbuddy.png" alt="JobHuntBuddy logo" style="min-width: 100%; margin-top: 4rem;">
-        </div>
-      </div>
-
-    </div>
-    <!-- /.container -->
-
-  </div>
-  <!-- /.content-section-b -->
-
-  <div class="content-section-a">
-
-    <div class="container">
-
-      <div class="row">
-        <div class="col-lg-5 col-sm-6">
-          <hr class="section-heading-spacer">
-          <div class="clearfix"></div>
-          <h2 class="section-heading"><a href="https://github.com/messerli90/role-bot">Discord Bot</a><br>Auto assign roles</h2>
-          <p class="lead">Bot for popular communication platform <a href="http://discordapp.com/">Discord</a>. Built in NodeJS</p>
-        </div>
-        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-          <img class="img-responsive" src="img/discord.svg" alt="">
+        <div class="tab-content tab-space">
+          <div class="tab-pane active text-center gallery" id="studio">
+            <div class="row">
+              <div class="col-md-4 ml-auto">
+                <img src="./img/jobhuntbuddy_2.png" class="rounded" height="175">
+                <h6>JobHuntBuddy.co</h6>
+                <p>Weekend Challenge. JobHuntBuddy is a web app helping job hunters manage the application process.</p>
+                <p></p>
+                
+              </div>
+              <div class="col-md-4 mr-auto">
+                <img src="./img/siegrs_banner_2.png" class="rounded" height="175">
+                <h6>Siegrs.gg</h6>
+                <p>Platform for players of Rainbow Six: Siege to browse other players and teams.</p>
+                <p>Serving over 30k players</p>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane text-center gallery" id="works">
+            <div class="row">
+              <div class="col-md-3 ml-auto">
+                <img src="./img/igdb_logo.png" class="rounded" height="125">
+                <h6>IGDB Wrapper</h6>
+                <p>Open source. IGDB Wrapper/Facade built for Laravel</p>
+                
+              </div>
+              <div class="col-md-3 mr-auto">
+                <img src="./img/bittrex.jpeg" class="rounded" height="125">
+                <h6>Bittrex Wrapper</h6>
+                <p>Open source. Laravel PHP Facade/Wrapper for the Bittrex API</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane text-center gallery" id="favorite">
+            <div class="row">
+              <div class="col-md-3 ml-auto">
+                <img src="./img/discord.svg" class="rounded">
+                <h6>Discord Bot</h6>
+                <p>Let's users assign themselves roles.</p>
+                <p>Built in NodeJS</p>
+                
+              </div>
+              <div class="col-md-3 mr-auto">
+                
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
     </div>
-    <!-- /.container -->
-
   </div>
-  <!-- /.content-section-a -->
-
-  <div class="content-section-b">
-
+  <footer class="footer footer-default">
     <div class="container">
-
-      <div class="row">
-        <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-          <hr class="section-heading-spacer">
-          <div class="clearfix"></div>
-          <h2 class="section-heading"><a href="https://github.com/messerli90/igdb">IGDB Wrapper / Facade</a><br>for Laravel</h2>
-          <p class="lead">Open source project. Built in Laravel 5.3</p>
-        </div>
-        <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-          <img class="img-responsive" src="img/igdb_logo.png" alt="IGDB logo" style="min-width: 100%; margin-top: 4rem;">
-        </div>
-      </div>
-
-    </div>
-    <!-- /.container -->
-
-  </div>
-  <!-- /.content-section-b -->
-
-  <a  name="contact"></a>
-  <div class="banner">
-
-    <div class="container">
-
-      <div class="row">
-        <div class="col-lg-6">
-          <h2>Have you shipped today?</h2>
-        </div>
-        <div class="col-lg-6">
-          <ul class="list-inline banner-social-buttons">
-            <li>
-              <a href="https://twitter.com/michaelmesserli" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-            </li>
-            <li>
-              <a href="https://github.com/messerli90" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-            </li>
-            <li>
-              <a href="https://linkedin.com/in/messerlimichael" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-    <!-- /.container -->
-
-  </div>
-  <!-- /.banner -->
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <p class="pull-right copyright text-muted small"><i class="fa fa-heart text-danger"></i> Michael Messerli</p>
-          <p class="copyright text-muted small"><i class="fa fa-gamepad"></i> &amp;&amp; <i class="fa fa-code"></i></p>
-        </div>
+      <nav class="float-left">
+        <ul>
+          <li>
+            <a href="https://steamcommunity.com/id/knifely"><i class="fa fa-gamepad"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="copyright float-right">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear())
+        </script> Michael Messerli
       </div>
     </div>
   </footer>
-
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-
-  <!-- Bootstrap Core JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+  <!--   Core JS Files   -->
+  <script src="./js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="./js/plugins/moment.min.js"></script>
+  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./js/material-kit.js?v=2.0.5" type="text/javascript"></script>
 </body>
 
 </html>
