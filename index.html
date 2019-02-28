@@ -12,11 +12,21 @@
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- CSS Files -->
   <link href="./css/material-kit.css?v=2.0.5" rel="stylesheet" />
-  <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="./demo/demo.css" rel="stylesheet" />
+  <link href="./css/style.css" rel="stylesheet" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-22063136-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-22063136-3');
+  </script>
+
 </head>
 
 <body class="profile-page sidebar-collapse">
@@ -33,15 +43,15 @@
               <div class="name">
                 <h3 class="title">Michael Messerli</h3>
                 <h6>Maker &bull; Developer &bull; Traveller &bull; Gamer</h6>
-                <a href="https://github.com/messerli90" class="btn btn-just-icon btn-link btn-github"><i class="fa fa-github"></i></a>
-                <a href="https://twitter.com/michaelmesserli" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
-                <a href="https://linkedin.com/in/messerlimichael" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/messerli90" class="btn btn-just-icon btn-link btn-github"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/michaelmesserli" class="btn btn-just-icon btn-link btn-twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/in/messerlimichael" class="btn btn-just-icon btn-link btn-linkedin"><i class="fab fa-linkedin"></i></a>
               </div>
             </div>
           </div>
         </div>
         <div class="description text-center">
-          <p>I build apps for games.</p>
+          <p>I love building things to help bring people together. Building communities online</p>
         </div>
         <div class="row">
           <div class="col-md-6 ml-auto mr-auto">
@@ -62,45 +72,93 @@
                     <i class="material-icons">record_voice_over</i> Bots
                   </a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#work" role="tab" data-toggle="tab">
+                    <i class="material-icons">account_balance</i> Work
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
         </div>
         <div class="tab-content tab-space">
           <div class="tab-pane active text-center gallery" id="studio">
-            <div class="row">
+            <h5>Web Apps</h5>
+            <h6>Apps &amp; Websites I've built</h6>
+            <div class="row"><div class="col-md-8 m-auto"><hr></div></div>
+            <div class="row mb-4">
               <div class="col-md-4 ml-auto">
-                <img src="./img/jobhuntbuddy_2.png" class="rounded" height="175">
-                <h6>JobHuntBuddy.co</h6>
+                <img src="./img/clansquare_banner.png" class="rounded" height="175">
+                <h6><a href="https://clansquare.com">ClanSquare.com</a></h6>
                 <p>Weekend Challenge. JobHuntBuddy is a web app helping job hunters manage the application process.</p>
                 <p></p>
-                
               </div>
               <div class="col-md-4 mr-auto">
                 <img src="./img/siegrs_banner_2.png" class="rounded" height="175">
-                <h6>Siegrs.gg</h6>
+                <h6><a href="https://siegrs.gg">Siegrs.gg</a></h6>
                 <p>Platform for players of Rainbow Six: Siege to browse other players and teams.</p>
                 <p>Serving over 30k players</p>
               </div>
             </div>
+            <div class="row">
+              <div class="col-md-4 ml-auto">
+                <img src="./img/tfbanner_postsize.png" class="rounded" height="175">
+                <h6>CSGO TeamFinder</h6>
+                <p>Platform for players of CS:GO to browse other players and teams.</p>
+                <p>Grew to 180k members.</p>
+                <p>Sold, and now: <a href="https://teamfind.com/">TeamFind.com</a></p>
+              </div>
+              <div class="col-md-4 mr-auto">
+                <img src="./img/jobhuntbuddy_2.png" class="rounded" height="175">
+                <h6><a href="https://JobHuntBuddy.co">JobHuntBuddy.co</a></h6>
+                <p>Weekend Challenge. JobHuntBuddy is a web app helping job hunters manage the application process.</p>
+                <p></p>
+              </div>
+            </div>
           </div>
           <div class="tab-pane text-center gallery" id="works">
+              <h5>Packages &amp; Libraries</h5>
+              <h6>Mainly Laravel wrappers for APIs</h6>
+              <div class="row"><div class="col-md-8 m-auto"><hr></div></div>
             <div class="row">
               <div class="col-md-3 ml-auto">
                 <img src="./img/igdb_logo.png" class="rounded" height="125">
                 <h6>IGDB Wrapper</h6>
                 <p>Open source. IGDB Wrapper/Facade built for Laravel</p>
-                
+                <p>
+                  <a href="https://github.com/messerli90/igdb" class="m-2"><i class="fab fa-2x fa-github"></i></a>
+                  <a href="https://packagist.org/packages/messerli90/igdb" class="m-2"><i class="fas fa-2x fa-box"></i></a>
+                </p>
               </div>
               <div class="col-md-3 mr-auto">
                 <img src="./img/bittrex.jpeg" class="rounded" height="125">
                 <h6>Bittrex Wrapper</h6>
                 <p>Open source. Laravel PHP Facade/Wrapper for the Bittrex API</p>
-                
+                <p>
+                  <a href="https://github.com/messerli90/bittrex" class="m-2"><i class="fab fa-2x fa-github"></i></a>
+                  <a href="https://packagist.org/packages/messerli90/bittrex" class="m-2"><i class="fas fa-2x fa-box"></i></a>
+                </p>
               </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 ml-auto">
+                  <img src="./img/firstpromoter.png" class="rounded" height="125">
+                  <h6>FirstPromoter</h6>
+                  <p>Open source. FirstPromoter Wrapper/Facade built for Laravel</p>
+                  <p>
+                    <a href="https://github.com/messerli90/first_promoter" class="m-2"><i class="fab fa-2x fa-github"></i></a>
+                    <a href="https://packagist.org/packages/messerli90/first_promoter" class="m-2"><i class="fas fa-2x fa-box"></i></a>
+                  </p>
+                </div>
+                <div class="col-md-3 mr-auto">
+                  
+                </div>
             </div>
           </div>
           <div class="tab-pane text-center gallery" id="favorite">
+            <h5>Bots</h5>
+            <h6>Hope to fill this up a bit</h6>
+            <div class="row"><div class="col-md-8 m-auto"><hr></div></div>
             <div class="row">
               <div class="col-md-3 ml-auto">
                 <img src="./img/discord.svg" class="rounded">
@@ -114,6 +172,41 @@
               </div>
             </div>
           </div>
+          <div class="tab-pane text-center gallery" id="work">
+            <h5>Work</h5>
+            <h6>Companies &amp; Websites I've worked for</h6>
+            <div class="row"><div class="col-md-8 m-auto"><hr></div></div>
+            <div class="row mb-4">
+              <div class="col-md-3 ml-auto">
+                <img src="./img/freedomground.png" class="rounded" height="175">
+                <h6>FreedomGround</h6>
+                <p><em>Lead Developer</em></p>
+                <p>Lead development of this survey platform.</p>
+                <p>Contest voting system, sweepstake algorith, and affiliate marketing program.</p>
+                
+              </div>
+              <div class="col-md-3 mr-auto">
+                  <img src="./img/yumi.png" class="rounded" height="175">
+                  <h6>Yumi</h6>
+                  <p><em>Back-end Developer</em></p>
+                  <p>Consulted on subscription service refactor</p>
+                  <p></p>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 ml-auto">
+                  <img src="./img/kickfurther.png" class="rounded" height="75">
+                  <h6>Kickfurther</h6>
+                  <p><em>Full-Stack Developer</em></p>
+                  <p>Original employee; Helped build the foundation of this crowd-funding platform.</p>
+                  <p>Implemented banking and billing systems</p>
+                  
+                </div>
+                <div class="col-md-3 mr-auto">
+                    
+                </div>
+              </div>
+          </div>
         </div>
       </div>
     </div>
@@ -124,6 +217,9 @@
         <ul>
           <li>
             <a href="https://steamcommunity.com/id/knifely"><i class="fa fa-gamepad"></i></a>
+          </li>
+          <li>
+            <a href="https://instagram.com/michaelmesserli"><i class="fab fa-instagram"></i></a>
           </li>
         </ul>
       </nav>
